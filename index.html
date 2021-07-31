@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <title>Project 79(Pizzaria)</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+          <h1>Pizzaria</h1>
+            <h2>Order Your Pizza!</h2>
+            <br>
+            <input type="search" id="searchYourPizza">
+          <button onclick="orderPizza()" id="buttonPizza">Add suggestion</button>
+          <br>
+          <br>
+          <button onclick="showMenu()" id="ShowMenu" ondblclick="hideDisplayMenu()"> show menu</button>
+          <br>
+          <br>
+          <div id="displayMenu">
+            Chicken tandoori Pizza<br>
+            Deluxe Viggie Pizza<br>
+            Paneer Ticka Pizza<br>
+            Veg Extravangaza Pizza<br>
+            Veg Marhgerita Pizza<br>
+            Veg Supreme Pizza
+          </div>
+            <button onclick="addItems()" ondblclick="hidePizzaimg()" id="showpizza">Show Pizza</button>
+            <br>
+            <br>
+            <div id="addItemsdiv">
+              <span>
+                <img src="Chickenpizza.jpg">
+              </span>
+              <span><h3>Chicken tandoori Pizza</h3></span>
+              <span>
+                <img src="viggie.png">
+              </span><span><h3>Deluxe Veggie Pizza</h3></span>
+              <span>
+                <img src="paneer-tikka-pizza.jpg">
+              </span>
+              <span><span><h3>Paneer Ticka Pizza</h3></span>
+                <img src="extravaganza_.jpg">
+              </span><span><h3>Veg Extravangaza Pizza</h3></span>
+              <span>
+                <img src="margherita.cms">
+              </span><span><h3> Veg Marhgerita Pizza</h3></span>
+              <span>
+                <img src="supreme.jfif">
+              </span><span><h3>Veg Supreme Pizza</h3></span>
+            </div>
+      </body>
+</html>

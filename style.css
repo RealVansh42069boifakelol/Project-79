@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    color:black;
+    background-color: aqua;
+}
+#ShowMenu{
+    width:150px;
+    height:50px;
+    background-color: yellow;
+}
+#displayMenu{
+    display:none;
+    color:black;
+}
+#displayMenu h1 {
+    text-align: center;
+}
+#addItemsdiv{
+    display :none; 
+    color: black;
+}
+img{
+    width: 200px;
+    height:200px;
+}
+#showpizza{
+    width:150px;
+    height:50px;
+}
